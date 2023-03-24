@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Book Point </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">books</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>upto 75% off</h3>
+            <p>There is a good news for all of you, if you buy any book from our website then you will get 75% discount and also you will get free delivery.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over $100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy returns</h3>
+            <p>10 days returns</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured books</span> </h1>
+
+   
+    <main >
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/718ReYbwlFL.jpg" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">After You</h2>
+                <h3 class="author">by Jojo Myoes</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    It continues the story of Louisa Clark after Will's death. She is trying to move on. 
+                </p>
+                <button type="submit">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/91JxVjINNsL.jpg" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">Big Magic</h2>
+                <h3 class="author">by Elizabeth Gilbert</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    Readers of all ages and walks of life have drawn inspiration from Elizabeth
+                    Gilbert’s books.
+                </p>
+                <button type="submit" id="b1">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/9129dzchsGL.jpg" alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">A Tale for the Time Being</h2>
+                <h3 class="author">by Ruth Ozeki</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    In Tokyo, sixteen-year-old Nao has decided there’s only one escape from her aching loneliness
+                    
+                </p>
+                <button type="submit" id="b2">See the Book</button>
+            </div>
+        </div>
+
+        <div class="books">
+            <div>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/81djg0KWthS.jpg"
+                    alt="" class="book-img">
+            </div>
+            <div class="descp">
+                <h2 class="book-name">The Great Gatsby</h2>
+                <h3 class="author">by F. Scott Fitzgerald</h3>
+                <h3 class="rating">1.987 rating</h3>
+                <p class="info">
+                    The novel was inspired by a youthful romance Fitzgerald had with socialite Ginevra King 
+                </p>
+                <button type="submit" id="b3">See the Book</button>
+            </div>
+        </div>
+
+    </main>
+
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>subscribe for latest updates</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1>upto 50% off</h1>
+        <p>Good news for you, if you buy any book on Saturday and Sunday you will get 50% off and also you will get free delivery.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="image">
+        <img src="image/deal-img.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading" style="padding-top:30px;"> <span>client's reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.2VfL_cNWIFtCfLY5aR2qKwHaEg?pid=ImgDet&rs=1" alt="">
+                <h3>john</h3>
+                <p>The website is very good and responsive, all the books available in this website are original and very cheap, you can buy them comfortably. Payment can also be done easily.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://brewminate.com/wp-content/uploads/2016/04/Books01.jpg" alt="">
+                <h3>Juliyana</h3>
+                <p>The website is very good and responsive, all the books available in this website are original and very cheap, you can buy them comfortably. Payment can also be done easily.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.x4d2BhdYUYripPck7xK5ewHaE8?pid=ImgDet&rs=1" alt="">
+                <h3>Joy</h3>
+                <p>The website is very good and responsive, all the books available in this website are original and very cheap, you can buy them comfortably. Payment can also be done easily.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.7W6RzJ74mPCXFEiCCQ64vAHaEv?pid=ImgDet&rs=1" alt="">
+                <h3>Oliveya</h3>
+                <p>The website is very good and responsive, all the books available in this website are original and very cheap, you can buy them comfortably. Payment can also be done easily.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://thumbs.dreamstime.com/b/reader-girl-park-reads-old-book-32811206.jpg" alt="">
+                <h3>William</h3>
+                <p>The website is very good and responsive, all the books available in this website are original and very cheap, you can buy them comfortably. Payment can also be done easily.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/R.67dd509687fedfd576eae9a57c513a5e?rik=fXibYcUdcRzzqg&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1257260%2fimages%2fo-READING-facebook.jpg&ehk=yrxiEJn%2ft4arga2djOgeYjGDRzOxaw%2b%2foYfPJM9lSlU%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <h3>Ava</h3>
+                <p>The website is very good and responsive, all the books available in this website are original and very cheap, you can buy them comfortably. Payment can also be done easily.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>our blogs</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://th.bing.com/th/id/OIP.bW0pOV1mMVkTRUgCrUknCQHaFj?pid=ImgDet&rs=1" alt="">
+                </div>
+                <div class="content">
+                    <h3>Book Riot</h3>
+                    <p>Largest independent editorial book site in North America dedicated to writing and reading across all genres. Features a host of original content, media, podcasts, newsletters, and more for diverse audiences.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://th.bing.com/th/id/OIP.Bo-HRLoEO0ahTTDr8CbpLwHaGe?pid=ImgDet&rs=1" alt="">
+                </div>
+                <div class="content">
+                    <h3>6 Cleverly Plotted Mysteries That Build in Intensity</h3>
+                    <p>Few genres transfix me more than that of the perfectly plotted mystery. To honor such works, I’ve compiled a list of some of the most cleverly plotted mysteries that not only hold our attention with each chapter but actually build in intensity. Get your magnifying glasses out.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://th.bing.com/th/id/R.647f586179ffb9864a3e85fbcb4b42c5?rik=9Ec9MyXjo7gYQQ&riu=http%3a%2f%2fwww.rollmagazine.com%2fwp-content%2fuploads%2f2019%2f05%2f2.-Library-Books1.jpg&ehk=SyOcCBPV4D9KmdgRYw1S%2frY2Hf%2f8goXFsmiVhlPuXH0%3d&risl=&pid=ImgRaw&r=0" alt="">
+                </div>
+                <div class="content">
+                    <h3>9 Books Depicting the Chaos and Beauty of Art</h3>
+                    <p>Sometimes it’s the fascinating artists and their muses, more than the art itself, that inspire me, as evidenced by this list of unforgettable novels about artists, real and fictional</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://th.bing.com/th/id/OIP.Bo-HRLoEO0ahTTDr8CbpLwHaGe?pid=ImgDet&rs=1" alt="">
+                </div>
+                <div class="content">
+                    <h3>A Life in Books</h3>
+                    <p>A Life in Books is a small, yet robust blog where aesthetics give way to the power of the written word. The website is maintained by Susan, who worked both as a bookseller and a freelance writer for many years.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="https://th.bing.com/th/id/R.647f586179ffb9864a3e85fbcb4b42c5?rik=9Ec9MyXjo7gYQQ&riu=http%3a%2f%2fwww.rollmagazine.com%2fwp-content%2fuploads%2f2019%2f05%2f2.-Library-Books1.jpg&ehk=SyOcCBPV4D9KmdgRYw1S%2frY2Hf%2f8goXFsmiVhlPuXH0%3d&risl=&pid=ImgRaw&r=0" alt="">
+                </div>
+                <div class="content">
+                    <h3>Read all the books here</h3>
+                    <p>Forget about reading only the classics of Western Literature and getting into deep philosophical conversations afterward. This blog is for unapologetic readers who don’t shy away from a trashy romance novel here and there.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91 8853455765 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +91 9140026484 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> bookpoint001144@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> created by <span>Pakhi</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
